@@ -10,3 +10,4 @@ a Spring Boot environment. It demonstrates the use of Google for authentication.
 ### Guides
 The following video illustrate how to use some features concretely:
 
+* [Java Rangers OAuth 2.0](https://www.youtube.com/watch?v=-wqR_M73Obo&t=15s)
