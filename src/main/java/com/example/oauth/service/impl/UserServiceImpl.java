@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService {
                 Optional<User> optionalUser = userRepository.findById((String) attributes.get("sub"));
                 if (optionalUser.isEmpty()){
                     User user = new User();
-                    user.setId((String) attributes.get("sub"));
+                    user.setId((Long) attributes.get("sub"));
                     user.setGiven_name((String) attributes.get("given_name"));
                     user.setFamily_name((String) attributes.get("family_name"));
                     user.setName((String) attributes.get("name"));
